@@ -32,7 +32,7 @@ header{
 
 
 
-h1[name="nome"]{
+h1[id="nome"]{
     
     color:#ffffff;
 
@@ -40,7 +40,7 @@ h1[name="nome"]{
 
 }
 
-p[name="info"]{
+p[id="info"]{
     color:#8a8a8a;
 
     font-family: Georgia;
@@ -50,12 +50,12 @@ p[name="info"]{
     
 }
 
-div[name="interface"]{
+div[id="interface"]{
 
+    width: 300px;
     height: 200px;
-    width: 200px;
 
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     border-color: #845CE0;
 
@@ -67,7 +67,7 @@ div[name="interface"]{
     
 }
 
-select[name="Origem"]{
+select[id="origem"]{
  
     background-color: #3d3d3d;
     color:#ffffff;
@@ -80,7 +80,7 @@ select[name="Origem"]{
 }
 
 
-select[name="Destino"]{
+select[id="destino"]{
 
     background-color: #3d3d3d;
     color:#ffffff;
@@ -89,12 +89,22 @@ select[name="Destino"]{
     border-width: 1px;
     border-color: #845CE0;
 
+}
 
+select[id="plano"]{
 
+    background-color: #3d3d3d;
+    color:#ffffff;
+
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #845CE0;
+
+    width:fit-content;
 }
 
 
-input[type="number"]{
+input[id="min"]{
 
     background-color: #3d3d3d;
     color: #ffffff;
@@ -104,7 +114,6 @@ input[type="number"]{
     border-style:solid;
     border-radius:5px;
     border-width:1px;
-
 }
 
 input[type="number"]::-webkit-inner-spin-button {
@@ -112,7 +121,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 
-button[name="Calcular"]{
+button[id="calcular"]{
     
     background-color: #3d3d3d;
 
@@ -126,15 +135,17 @@ button[name="Calcular"]{
 }
 
 
-p[name="Valor"]{
+p[id="valor"]{
+
     color:#ffffff;
     font-family: Georgia;
 
-    margin-top:91px;
+    margin-top:111px;
 }
 
 
-p[name="ValorS"]{
+p[id="valorS"]{
+
     color:#ffffff;
     font-family: Georgia;
 }

@@ -2,40 +2,54 @@
 <html lang="pt-Br">
     <head>
         <title>Jubileu</title>
+
         <meta charset="utf-8">
+
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-
         <header>
-            <h1 name="nome">Jubileu</h1>
-            <p name="info">Calculadora de preço</p>
+            <h1 id="nome">Jubileu</h1>
+
+            <p id="info">Calculadora de preço</p>
         </header>
 
-        <div name="interface">
-
-            <select name="Origem">
+        <div id="interface">
+            <select id="origem">
                 <option>011</option>
                 <option>016</option>
                 <option>017</option>
                 <option>018</option>
-                <option selected>Origem</option>
+                <option selected disabled>Origem</option>
             </select>
 
-            <select name="Destino">
+            <select id="destino">
                 <option>011</option>
                 <option>016</option>
                 <option>017</option>
                 <option>018</option>
-                <option selected>Destino</option>
+                <option selected disabled>Destino</option>
             </select>
-            <input type="number" name="Min" placeholder="Minutos">
 
-            <button name="Calcular">Calcular</button>
-            <p name="Valor">Valor com o plano:</p>
-            <p name="ValorS">Valor Sem o plano:</p>
+            <select id="plano">
+                <option value="30">Fale mais por 30 Min</option>
+                <option value="60">Fale mais por 60 Min</option>
+                <option value="120">Fale mais por 120 Min</option>
+                <option selected disabled>Planos</option>
+            </select>
+
+            <input type="number" id="min" placeholder="Minutos">
+
+            <button id="calcular">Calcular</button>
+
+            <p id="valor">Valor com o plano:</p>
+
+            <p id="valorS">Valor Sem o plano:</p>
         </div>
+
+        <script src="index.js"></script>
 
     </body>
 
 </html>
+
