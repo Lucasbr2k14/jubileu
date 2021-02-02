@@ -1,0 +1,62 @@
+/* Palheta de cores
+    #292929
+    #DB5CE0
+    #845CE0
+    #A9C3F4
+    #55ECED
+*/
+*{
+    margin: 0px;
+    
+}
+
+body{
+
+    background-color: #292929;
+}
+
+header{
+    background-color:#3d3d3d;
+
+
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color:#845CE0;
+
+    height: 57px;
+}
+
+
+
+h1[name="nome"]{
+    
+    color:#ffffff;
+
+    margin-left: 2%;
+
+}
+
+p[name="info"]{
+    color:#8a8a8a;
+
+    font-family: Georgia;
+    font-size: 17px;
+
+    text-align: center;
+    
+}
+
+div[name="programa"]{
+
+    height: 100px;
+    width: 100px;
+
+    border-width: 1px;
+    border-style: solid;
+    border-color: #845CE0;
+
+    background-color:#3d3d3d;
+}
