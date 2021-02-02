@@ -13,6 +13,7 @@
 body{
 
     background-color: #292929;
+    font-family: Georgia;
 }
 
 header{
@@ -49,14 +50,91 @@ p[name="info"]{
     
 }
 
-div[name="programa"]{
+div[name="interface"]{
 
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 
     border-width: 1px;
     border-style: solid;
     border-color: #845CE0;
 
     background-color:#3d3d3d;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    
+}
+
+select[name="Origem"]{
+ 
+    background-color: #3d3d3d;
+    color:#ffffff;
+
+
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #845CE0;
+
+}
+
+
+select[name="Destino"]{
+
+    background-color: #3d3d3d;
+    color:#ffffff;
+
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: #845CE0;
+
+
+
+}
+
+
+input[type="number"]{
+
+    background-color: #3d3d3d;
+    color: #ffffff;
+
+    border-radius: 5px;
+    border-color: #845CE0;
+    border-style:solid;
+    border-radius:5px;
+    border-width:1px;
+
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+
+button[name="Calcular"]{
+    
+    background-color: #3d3d3d;
+
+    margin-top:10px;
+
+    border-radius:5px;
+    border-style: solid;
+    border-color: #845CE0;
+
+    color: #ffffff;
+}
+
+
+p[name="Valor"]{
+    color:#ffffff;
+    font-family: Georgia;
+
+    margin-top:91px;
+}
+
+
+p[name="ValorS"]{
+    color:#ffffff;
+    font-family: Georgia;
 }
