@@ -67,7 +67,7 @@ div[id="interface"]{
     
 }
 
-select[id="origem"]{
+select[id="DDD"]{
  
     background-color: #3d3d3d;
     color:#ffffff;
@@ -79,17 +79,6 @@ select[id="origem"]{
 
 }
 
-
-select[id="destino"]{
-
-    background-color: #3d3d3d;
-    color:#ffffff;
-
-    border-radius: 5px;
-    border-width: 1px;
-    border-color: #845CE0;
-
-}
 
 select[id="plano"]{
 
@@ -115,6 +104,7 @@ input[id="min"]{
     border-radius:5px;
     border-width:1px;
 }
+
 
 input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;

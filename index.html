@@ -15,20 +15,15 @@
         </header>
 
         <div id="interface">
-            <select id="origem">
-                <option>011</option>
-                <option>016</option>
-                <option>017</option>
-                <option>018</option>
-                <option selected disabled>Origem</option>
+            <select id="DDD">
+                <option value="1.90">011 | 016</option>
+                <option value="2.90">016 | 011</option>
+                <option value="1.70">011 | 017</option>
+                <option value="2.70">017 | 011</option>
+                <option value="0.90">011 | 018</option>
+                <option value="1.90">018 | 011</option>
+                <option selected disabled>Origem | Destino</option>
             </select>
-
-            <select id="destino">
-                <option>011</option>
-                <option>016</option>
-                <option>017</option>
-                <option>018</option>
-                <option selected disabled>Destino</option>
             </select>
 
             <select id="plano">
@@ -44,7 +39,7 @@
 
             <p id="valor">Valor com o plano:</p>
 
-            <p id="valorS">Valor Sem o plano:</p>
+            <p id="valorS">Valor sem o plano:</p>
         </div>
 
         <script src="index.js"></script>
